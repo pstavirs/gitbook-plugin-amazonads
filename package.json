@@ -1,0 +1,44 @@
+{
+	"name": "gitbook-plugin-amazonads",
+	"description": "Amazon ads for your GitBook",
+	"main": "index.js",
+	"version": "0.0.1",
+	"engines": {
+		"gitbook": ">=2.5.1"
+	},
+	"homepage": "https://github.com/pstavirs/gitbook-plugin-amazonads",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/pstavirs/gitbook-plugin-amazonads.git"
+	},
+	"license": "Apache-2.0",
+	"bugs": {
+		"url": "https://github.com/pstavirs/gitbook-plugin-amazonads/issues"
+	},
+	"gitbook": {
+		"properties": {
+			"tracking_id": {
+				"type": "string",
+				"title": "Amazon Assoc Tracking id",
+				"required": true
+			},
+			"title": {
+				"type": "string",
+				"title": "Tile for Ad",
+				"required": true
+			},
+			"asins": {
+				"type": "string",
+				"title": "Amazon Assoc list of comma-separated ASINs",
+				"required": true
+			},
+			"linkid": {
+				"type": "string",
+				"title": "Amazon Assoc link id",
+				"required": false
+			}
+		}
+	},
+	"devDependencies": {
+	}
+}
