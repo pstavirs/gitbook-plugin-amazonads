@@ -12,7 +12,7 @@ require(['gitbook'], function (gitbook) {
     ad.text = 'amzn_assoc_placement = "adunit0";'
         + ' amzn_assoc_search_bar = "false";'
         + ' amzn_assoc_tracking_id = "' + config.tracking_id + '";' 
-        + ' amzn_assoc_ad_mode = "manual";'
+        + ' amzn_assoc_ad_mode = "' + config.ad_mode + '";'
         + ' amzn_assoc_ad_type = "smart";'
         + ' amzn_assoc_div_name = "amazon_ad";'
         + ' amzn_assoc_marketplace = "amazon";'
